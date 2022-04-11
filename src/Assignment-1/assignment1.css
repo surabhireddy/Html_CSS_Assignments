@@ -1,13 +1,26 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.container {
 width: 100%;
-height: 100%;
+height: auto;
+border: 30px solid gray;
+background-color: gray;
 }
-h1{
-    color: rebeccapurple;
+
+.row{
+    display:block;
+    height:100px;
+    width:90%;
+    margin:10px;
+   
 }
-h2{
-    color: red;
+
+.col{
+    display:inline-block;
+    height:inherit;
+    width:45%;
+    margin:10px;
+    border: 10px red;
+   
 }
